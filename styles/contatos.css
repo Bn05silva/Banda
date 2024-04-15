@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(23, 22, 17);
+    color: rgb(247, 243, 0);
+    font-family: poppinsregular;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+#title{
+    display: inline-block;
+    margin: 15px;
+
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace; 
+    text-transform: uppercase;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(251, 255, 0);
+    transition: 0.3s all;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace; 
+    text-transform: uppercase;
+}
+
+
+h2{
+    text-transform: uppercase;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace; 
+    text-transform: uppercase;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #3498db;
+    color: rgb(247, 243, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+#title a{
+    text-decoration: none;
+    color: rgb(247, 243, 0);
+}

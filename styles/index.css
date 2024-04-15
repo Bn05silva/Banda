@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(23, 22, 17);
+    color: rgb(247, 243, 0);
+    font-family: poppinsregular;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    width: 100%;
+}
+
+#title{
+    display: inline-block;
+    margin: 15px;
+
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace; 
+    text-transform: uppercase;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(251, 255, 0);
+    transition: 0.3s all;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace; 
+    text-transform: uppercase;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+h2{
+    font-size: 45px;
+    line-height: 20px;
+    font-family: poppinsbold;
+}
+
+span{
+    color: rgb(229, 255, 0);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 580px;
+    margin-left: 100px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: black;
+    color: #2859ad;
+    font-weight: bold;
+}
+
+
+form [type="submit"]:hover{
+   cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+.whats{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+
+footer img{
+
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+img{
+    margin: 70px;
+    
+    
+}
+
+#title a{
+    text-decoration: none;
+    color: rgb(247, 243, 0);
+}
